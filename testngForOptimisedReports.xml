@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+	<listener class-name="ExtentReportsBasics.MyTestListner"> </listener>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+  <!--     <class name="ExtentReportsBasics.OptimisedExtentReport1"/>
+      
+      <class name="ExtentReportsBasics.OptimisingExtentReports2"/> -->
+      
+        <class name="OrangeHRMSTestCases.LoginTC01"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
