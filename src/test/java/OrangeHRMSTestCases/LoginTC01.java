@@ -18,7 +18,7 @@ public class LoginTC01 // use inheritance
 	{
 //	public static void main(String[] args) 
 //	{
-		
+		// adding commenst to check in git repo
 //		WebDriver driver = null;	
 //
 //		//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo\\Downloads\\chromedriver_win32 (8)\\chromedriver.exe");
@@ -29,7 +29,7 @@ public class LoginTC01 // use inheritance
 //		  driver =  new ChromeDriver();
 //
 //		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-//		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	
 		// call OpenBrowser() from TestBase Class
 		TestBase tb = new TestBase();
